@@ -1,30 +1,67 @@
-# Portfolio with motion
+# Srinivas – Portfolio with Motion
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+A modern, animated front-end portfolio site for showcasing Srinivas' work as a front-end engineer.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/srinivas-vibes-projects/v0-srinivas-portfolio-with-motion)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/cROJXjA6Br7)
+Built with **Next.js**, **React**, **TypeScript**, **Tailwind CSS**, **Radix UI**, **Framer Motion**, and **GSAP**.
 
-## Overview
+The UI, layout, and animations are hand-crafted and optimized for responsiveness and smooth motion.
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## Features
+
+- **Rich motion design** using Framer Motion and GSAP
+- **Modern component library** powered by Radix UI and Tailwind utility classes
+- **Responsive layout** that adapts across desktop, tablet, and mobile
+- **Dark-first visual style** with custom typography
+
+## Tech Stack
+
+- **Framework**: Next.js (App Router)
+- **Language**: TypeScript
+- **UI / Styling**: Tailwind CSS, Radix UI
+- **Animations**: Framer Motion, GSAP
+- **Forms & Validation**: React Hook Form, Zod
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Then open `http://localhost:3000` in your browser.
+
+## Building for Production
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+Start the production server locally:
+
+```bash
+npm start
+```
 
 ## Deployment
 
-Your project is live at:
+This project is platform-agnostic and can be deployed to any static or Node-compatible hosting provider, including:
 
-**[https://vercel.com/srinivas-vibes-projects/v0-srinivas-portfolio-with-motion](https://vercel.com/srinivas-vibes-projects/v0-srinivas-portfolio-with-motion)**
+- GitHub Pages
+- Netlify
+- Cloudflare Pages
+- Any platform that supports running a Next.js app or serving its output
 
-## Build your app
+Follow your chosen provider's standard Next.js deployment guide.
 
-Continue building your app on:
+## License
 
-**[https://v0.app/chat/cROJXjA6Br7](https://v0.app/chat/cROJXjA6Br7)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+This portfolio is provided as-is for personal use and showcasing Srinivas' work.
